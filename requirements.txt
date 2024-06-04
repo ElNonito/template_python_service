@@ -2,4 +2,3 @@ requests
 pytest
 httpx
 fastapi
-uvicorn
