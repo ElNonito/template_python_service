@@ -4,7 +4,7 @@ SHELL := /bin/bash
 
 PYTHON = python3
 VENV_DIR = .venv
-API_DIR = server
+API_DIR = api
 REQUIREMENTS_FILE = requirements.txt
 MAIN_API = main
 APP_NAME = app
