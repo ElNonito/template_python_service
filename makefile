@@ -24,8 +24,7 @@ build: tests
 	docker build -t $(IMAGE_NAME):latest .
 
 stage: build
-	docker run -d -p 127.0.0.1:8000:8000 $(IMAGE_NAME):latest
-
+	# écrire cette commande
 clean:
 	rm -rf $(VENV_DIR)
 	rm -rf __pycache__
