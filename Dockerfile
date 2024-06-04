@@ -11,5 +11,5 @@ RUN pip install -r /home/requirements.txt
 ADD core /home/core
 ADD server /home/server
 WORKDIR /home/server
-# Run the application
-ENTRYPOINT uvicorn main:app --host 0.0.0.0
+# Modifier la ligne suivante pour lancer le serveur
+ENTRYPOINT bash
