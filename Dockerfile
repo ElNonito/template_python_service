@@ -9,7 +9,7 @@ EXPOSE 8000
 RUN pip install -r /home/requirements.txt
 # add core and api 
 ADD core /home/core
-ADD server /home/server
-WORKDIR /home/server
+ADD api /home/api
+WORKDIR /home/api
 # Modifier la ligne suivante pour lancer le serveur
 ENTRYPOINT bash
